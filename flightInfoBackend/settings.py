@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yv9-1-*gsio+&8xkt@im73327&)+n@xro%4-$n(dvlz@5hl*t$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['flightinfobackend.herokuapp.com']
 
 
 # Application definition
