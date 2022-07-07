@@ -58,7 +58,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'flightInfoBackend.urls'
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-  'http://localhost:3000',
+  'https://friendly-zabaione-8d2b66.netlify.app/',
 )
 
 TEMPLATES = [
